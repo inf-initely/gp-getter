@@ -1,0 +1,14 @@
+{
+  "$schema": "https://deno.land/x/denon@2.4.9/schema.json",
+  "scripts": {
+    "bundle": {
+      "cmd": "deno bundle ./src/index.ts ./dist/index.js",
+      "tsconfig": "tsconfig.json"
+    }
+  },
+  "watcher": {
+    "match": [
+      "./src/*.*"
+    ]
+  }
+}

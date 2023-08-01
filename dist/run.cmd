@@ -1,0 +1,1 @@
+run.exe input.txt "http://gis-portal.kemendesa.go.id/server/rest/services/Pusdatin/IDM_2018/MapServer/3/query?where=KODEDESA_K='[INJECT]'&f=geojson"

@@ -1,0 +1,11 @@
+{
+  "deno.enable": true,
+  "liveServer.settings.root": "/dist",
+  "deno.suggest.imports.hosts": {
+    "https://cdn.skypack.dev": false,
+    "https://deno.land": true
+  },
+  "deno.config": "tsconfig.json",
+  "deno.unstable": true,
+  "deno.codeLens.implementations": true
+}
